@@ -12,7 +12,10 @@ workflows = {
         "step1": workflow2.step1.execute,
         "step2": workflow2.step2.execute,
         "step3": workflow2.step3.execute,
-        "step4": workflow2.step4.execute
+        "step4": workflow2.step4.execute,
+        "step5": workflow2.step5.execute,
+        "step6": workflow2.step6.execute,
+        "step7": workflow2.step5.execute
     }
 }
 
