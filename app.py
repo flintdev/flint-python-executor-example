@@ -8,7 +8,8 @@ workflows = {
         "step3": workflow1.step3.execute,
         "step4": workflow1.step4.execute,
         "step5": workflow1.step5.execute,
-        "step6": workflow1.step6.execute
+        "step6": workflow1.step6.execute,
+        "step7": workflow1.step7.execute
     },
     "workflow2": {
         "step1": workflow2.step1.execute,
