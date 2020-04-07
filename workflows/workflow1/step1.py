@@ -15,4 +15,7 @@ def execute(handler):
     path = "$.workflow1.step1.field4"
     value = 1.2
     handler.flow_data.set(path, value)
+    path = "$.workflow1.step1.field5"
+    value = "2020-01-01"
+    handler.flow_data.set(path, value)
     time.sleep(1)
